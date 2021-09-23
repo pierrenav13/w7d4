@@ -528,3 +528,923 @@ Started GET "/assets/application.self-85a6aa2a3ff89d50dcbee66b2c3ff23f20951cf563
 Started GET "/assets/application.self-85a6aa2a3ff89d50dcbee66b2c3ff23f20951cf56303063cc0590350a2b7b7d5.css?body=1&livereload=1632422660926" for ::1 at 2021-09-23 14:44:20 -0400
 Started GET "/assets/application.self-85a6aa2a3ff89d50dcbee66b2c3ff23f20951cf56303063cc0590350a2b7b7d5.css?body=1&livereload=1632422688002" for ::1 at 2021-09-23 14:44:48 -0400
 Started GET "/assets/application.self-85a6aa2a3ff89d50dcbee66b2c3ff23f20951cf56303063cc0590350a2b7b7d5.css?body=1&livereload=1632422687999" for ::1 at 2021-09-23 14:44:48 -0400
+Started GET "/" for ::1 at 2021-09-23 14:52:07 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.7ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (7.6ms)
+  Rendered shared/_main_content.html.erb (1.9ms)
+  Rendered static_pages/index.html.erb within layouts/application (73.6ms)
+Completed 200 OK in 1315ms (Views: 1306.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-34cfbc53ac953dccdb9491468be611a8a0bee691d762676834a1810c81eec0fd.css?body=1" for ::1 at 2021-09-23 14:52:09 -0400
+Started GET "/assets/application.self-34cfbc53ac953dccdb9491468be611a8a0bee691d762676834a1810c81eec0fd.css?body=1&livereload=1632423196613" for ::1 at 2021-09-23 14:53:16 -0400
+Started GET "/assets/application.self-34cfbc53ac953dccdb9491468be611a8a0bee691d762676834a1810c81eec0fd.css?body=1&livereload=1632423196617" for ::1 at 2021-09-23 14:53:16 -0400
+Started GET "/assets/application.self-34cfbc53ac953dccdb9491468be611a8a0bee691d762676834a1810c81eec0fd.css?body=1&livereload=1632423206833" for ::1 at 2021-09-23 14:53:26 -0400
+Started GET "/assets/application.self-34cfbc53ac953dccdb9491468be611a8a0bee691d762676834a1810c81eec0fd.css?body=1&livereload=1632423206837" for ::1 at 2021-09-23 14:53:26 -0400
+Started GET "/assets/application.self-34cfbc53ac953dccdb9491468be611a8a0bee691d762676834a1810c81eec0fd.css?body=1&livereload=1632423235335" for ::1 at 2021-09-23 14:53:55 -0400
+Started GET "/assets/application.self-34cfbc53ac953dccdb9491468be611a8a0bee691d762676834a1810c81eec0fd.css?body=1&livereload=1632423235338" for ::1 at 2021-09-23 14:53:55 -0400
+Started GET "/" for ::1 at 2021-09-23 14:53:57 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.6ms)
+  Rendered shared/_masthead.html.erb (1.5ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (1.0ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (47.3ms)
+Completed 200 OK in 181ms (Views: 171.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1" for ::1 at 2021-09-23 14:53:58 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423267394" for ::1 at 2021-09-23 14:54:27 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423267397" for ::1 at 2021-09-23 14:54:27 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423298141" for ::1 at 2021-09-23 14:54:58 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423298143" for ::1 at 2021-09-23 14:54:58 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423306474" for ::1 at 2021-09-23 14:55:06 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423306473" for ::1 at 2021-09-23 14:55:06 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423348534" for ::1 at 2021-09-23 14:55:48 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423348537" for ::1 at 2021-09-23 14:55:48 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423357333" for ::1 at 2021-09-23 14:55:57 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423357331" for ::1 at 2021-09-23 14:55:57 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423369120" for ::1 at 2021-09-23 14:56:09 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423369122" for ::1 at 2021-09-23 14:56:09 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423380786" for ::1 at 2021-09-23 14:56:20 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423380785" for ::1 at 2021-09-23 14:56:20 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423423691" for ::1 at 2021-09-23 14:57:03 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423423693" for ::1 at 2021-09-23 14:57:03 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423431443" for ::1 at 2021-09-23 14:57:11 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423431445" for ::1 at 2021-09-23 14:57:11 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423445731" for ::1 at 2021-09-23 14:57:25 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423445735" for ::1 at 2021-09-23 14:57:25 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423462013" for ::1 at 2021-09-23 14:57:42 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423462011" for ::1 at 2021-09-23 14:57:42 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423514469" for ::1 at 2021-09-23 14:58:34 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423514470" for ::1 at 2021-09-23 14:58:34 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423577112" for ::1 at 2021-09-23 14:59:37 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423577115" for ::1 at 2021-09-23 14:59:37 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423582347" for ::1 at 2021-09-23 14:59:42 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423582349" for ::1 at 2021-09-23 14:59:42 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423588876" for ::1 at 2021-09-23 14:59:48 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423588875" for ::1 at 2021-09-23 14:59:48 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423598113" for ::1 at 2021-09-23 14:59:58 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423598116" for ::1 at 2021-09-23 14:59:58 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423604545" for ::1 at 2021-09-23 15:00:04 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423604547" for ::1 at 2021-09-23 15:00:04 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423636877" for ::1 at 2021-09-23 15:00:36 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423636879" for ::1 at 2021-09-23 15:00:36 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423656731" for ::1 at 2021-09-23 15:00:56 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423656734" for ::1 at 2021-09-23 15:00:56 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423669803" for ::1 at 2021-09-23 15:01:09 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423669810" for ::1 at 2021-09-23 15:01:09 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423676042" for ::1 at 2021-09-23 15:01:16 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423676044" for ::1 at 2021-09-23 15:01:16 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423683602" for ::1 at 2021-09-23 15:01:23 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423683605" for ::1 at 2021-09-23 15:01:23 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423739349" for ::1 at 2021-09-23 15:02:19 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423739353" for ::1 at 2021-09-23 15:02:19 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423777747" for ::1 at 2021-09-23 15:02:57 -0400
+Started GET "/assets/application.self-24d5e71906a31ca2ae50c462d73fa38c3e25a03c25d8df315539add0d0376ff0.css?body=1&livereload=1632423777749" for ::1 at 2021-09-23 15:02:57 -0400
+Started GET "/" for ::1 at 2021-09-23 15:03:11 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.7ms)
+  Rendered shared/_masthead.html.erb (0.7ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.8ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 82ms (Views: 75.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1" for ::1 at 2021-09-23 15:03:11 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632423802081" for ::1 at 2021-09-23 15:03:22 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632423802084" for ::1 at 2021-09-23 15:03:22 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632423805093" for ::1 at 2021-09-23 15:03:25 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632423805095" for ::1 at 2021-09-23 15:03:25 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632423807805" for ::1 at 2021-09-23 15:03:27 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632423807807" for ::1 at 2021-09-23 15:03:27 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632423864727" for ::1 at 2021-09-23 15:04:24 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632423864729" for ::1 at 2021-09-23 15:04:24 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632423874557" for ::1 at 2021-09-23 15:04:34 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632423874562" for ::1 at 2021-09-23 15:04:34 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424059101" for ::1 at 2021-09-23 15:07:39 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424059104" for ::1 at 2021-09-23 15:07:39 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424187225" for ::1 at 2021-09-23 15:09:47 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424187227" for ::1 at 2021-09-23 15:09:47 -0400
+Started GET "/assets/images/cog-solid.png" for ::1 at 2021-09-23 15:09:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/cog-solid.png"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:23:in `_call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:14:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.1ms)
+  Rendered collection of /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (14.2ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (87.2ms)
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (794.9ms)
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424203819" for ::1 at 2021-09-23 15:10:03 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424203816" for ::1 at 2021-09-23 15:10:03 -0400
+Started GET "/assets/images/cog-solid.png" for ::1 at 2021-09-23 15:10:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/cog-solid.png"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:23:in `_call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:14:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered collection of /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (15.0ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.5ms)
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.9ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (743.2ms)
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424210049" for ::1 at 2021-09-23 15:10:10 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424210052" for ::1 at 2021-09-23 15:10:10 -0400
+Started GET "/assets/images/cog-solid.png" for ::1 at 2021-09-23 15:10:10 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/cog-solid.png"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:23:in `_call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:14:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered collection of /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (9.1ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.1ms)
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.7ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (602.2ms)
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424216814" for ::1 at 2021-09-23 15:10:16 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424216816" for ::1 at 2021-09-23 15:10:16 -0400
+Started GET "/assets/images/cog-solid.svg" for ::1 at 2021-09-23 15:10:17 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/cog-solid.svg"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:23:in `_call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:14:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered collection of /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.7ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (247.0ms)
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424220645" for ::1 at 2021-09-23 15:10:20 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424220647" for ::1 at 2021-09-23 15:10:20 -0400
+Started GET "/assets/images/cog-solid.svg" for ::1 at 2021-09-23 15:10:20 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/cog-solid.svg"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:23:in `_call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:14:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered collection of /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (2.1ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.4ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (614.0ms)
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424226662" for ::1 at 2021-09-23 15:10:26 -0400
+Started GET "/assets/application.self-b35400198796abd008e90711626ba1def1a97b7a788a5545e892cf5f007722c8.css?body=1&livereload=1632424226664" for ::1 at 2021-09-23 15:10:26 -0400
+Started GET "/assets/cog-solid.svg" for ::1 at 2021-09-23 15:10:27 -0400
+Started GET "/" for ::1 at 2021-09-23 15:11:33 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (1.1ms)
+  Rendered shared/_masthead.html.erb (1.1ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.7ms)
+  Rendered shared/_main_content.html.erb (0.8ms)
+  Rendered static_pages/index.html.erb within layouts/application (181.8ms)
+Completed 200 OK in 293ms (Views: 286.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c9c74290eb05aa9777063c5d879959d98644c9112670562aa1c7ff30abc01221.css?body=1" for ::1 at 2021-09-23 15:11:34 -0400
+Started GET "/assets/cog-solid.svg" for ::1 at 2021-09-23 15:11:35 -0400
+Started GET "/" for ::1 at 2021-09-23 15:11:56 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.6ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (1.2ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (56.9ms)
+Completed 200 OK in 134ms (Views: 129.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cog-solid.svg" for ::1 at 2021-09-23 15:11:57 -0400
+Started GET "/" for ::1 at 2021-09-23 15:12:04 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (1.4ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (5.1ms)
+  Rendered static_pages/index.html.erb within layouts/application (61.2ms)
+Completed 200 OK in 119ms (Views: 113.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cog-solid.svg" for ::1 at 2021-09-23 15:12:05 -0400
+Started GET "/" for ::1 at 2021-09-23 15:12:17 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.9ms)
+  Rendered static_pages/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 78ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cog-solid.svg" for ::1 at 2021-09-23 15:12:18 -0400
+Started GET "/" for ::1 at 2021-09-23 15:12:31 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (1.2ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.9ms)
+  Rendered shared/_search_modal.html.erb (6.6ms)
+  Rendered shared/_main_content.html.erb (4.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (60.3ms)
+Completed 200 OK in 127ms (Views: 120.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cog-solid.svg" for ::1 at 2021-09-23 15:12:33 -0400
+Started GET "/assets/application.self-c9c74290eb05aa9777063c5d879959d98644c9112670562aa1c7ff30abc01221.css?body=1&livereload=1632424360226" for ::1 at 2021-09-23 15:12:40 -0400
+Started GET "/assets/application.self-c9c74290eb05aa9777063c5d879959d98644c9112670562aa1c7ff30abc01221.css?body=1&livereload=1632424360229" for ::1 at 2021-09-23 15:12:40 -0400
+Started GET "/assets/application.self-c9c74290eb05aa9777063c5d879959d98644c9112670562aa1c7ff30abc01221.css?body=1&livereload=1632424452773" for ::1 at 2021-09-23 15:14:12 -0400
+Started GET "/assets/application.self-c9c74290eb05aa9777063c5d879959d98644c9112670562aa1c7ff30abc01221.css?body=1&livereload=1632424452775" for ::1 at 2021-09-23 15:14:12 -0400
+Started GET "/assets/application.self-c9c74290eb05aa9777063c5d879959d98644c9112670562aa1c7ff30abc01221.css?body=1&livereload=1632424458595" for ::1 at 2021-09-23 15:14:18 -0400
+Started GET "/assets/application.self-c9c74290eb05aa9777063c5d879959d98644c9112670562aa1c7ff30abc01221.css?body=1&livereload=1632424458597" for ::1 at 2021-09-23 15:14:18 -0400
+Started GET "/assets/application.self-c9c74290eb05aa9777063c5d879959d98644c9112670562aa1c7ff30abc01221.css?body=1&livereload=1632424467505" for ::1 at 2021-09-23 15:14:27 -0400
+Started GET "/assets/application.self-c9c74290eb05aa9777063c5d879959d98644c9112670562aa1c7ff30abc01221.css?body=1&livereload=1632424467507" for ::1 at 2021-09-23 15:14:27 -0400
+Started GET "/assets/application.self-c9c74290eb05aa9777063c5d879959d98644c9112670562aa1c7ff30abc01221.css?body=1&livereload=1632424536774" for ::1 at 2021-09-23 15:15:36 -0400
+Started GET "/assets/application.self-c9c74290eb05aa9777063c5d879959d98644c9112670562aa1c7ff30abc01221.css?body=1&livereload=1632424536777" for ::1 at 2021-09-23 15:15:36 -0400
+Started GET "/" for ::1 at 2021-09-23 15:15:48 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.7ms)
+  Rendered static_pages/index.html.erb within layouts/application (45.6ms)
+Completed 200 OK in 125ms (Views: 120.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1" for ::1 at 2021-09-23 15:15:49 -0400
+Started GET "/" for ::1 at 2021-09-23 15:15:51 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (3.3ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.9ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (51.7ms)
+Completed 200 OK in 115ms (Views: 110.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cog-solid.svg" for ::1 at 2021-09-23 15:15:51 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/cog-solid.svg"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:23:in `_call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:14:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered collection of /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (14.4ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.4ms)
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1030.0ms)
+Started GET "/" for ::1 at 2021-09-23 15:16:15 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.6ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (53.7ms)
+Completed 200 OK in 113ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/cog-solid.svg" for ::1 at 2021-09-23 15:16:17 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/cog-solid.svg"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:23:in `_call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:14:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.6ms)
+  Rendered collection of /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (3.3ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (518.0ms)
+Started GET "/" for ::1 at 2021-09-23 15:16:29 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.6ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (46.4ms)
+Completed 200 OK in 108ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/cog-solid.svg" for ::1 at 2021-09-23 15:16:30 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/cog-solid.svg"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:23:in `_call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:14:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (26.1ms)
+  Rendered collection of /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (2.5ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.3ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (684.1ms)
+Started GET "/" for ::1 at 2021-09-23 15:17:04 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (27.0ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (1.1ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (72.4ms)
+Completed 200 OK in 126ms (Views: 121.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-09-23 15:17:20 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.9ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (1.1ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (44.1ms)
+Completed 200 OK in 85ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Users/appacademystudent/Documents/AppAcademy/Classwork/W7/W7D4/AATimes/app/assets/images/cog-solid.svg" for ::1 at 2021-09-23 15:17:21 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/Users/appacademystudent/Documents/AppAcademy/Classwork/W7/W7D4/AATimes/app/assets/images/cog-solid.svg"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:23:in `_call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:14:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered collection of /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (10.2ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.3ms)
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1475.0ms)
+Started GET "/" for ::1 at 2021-09-23 15:17:31 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.7ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (0.7ms)
+  Rendered shared/_main_content.html.erb (1.8ms)
+  Rendered static_pages/index.html.erb within layouts/application (46.8ms)
+Completed 200 OK in 267ms (Views: 259.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cog-solid.svg" for ::1 at 2021-09-23 15:17:32 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/cog-solid.svg"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:23:in `_call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:14:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered collection of /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.0ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (434.8ms)
+Started GET "/" for ::1 at 2021-09-23 15:18:18 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (1.5ms)
+  Rendered shared/_sections_nav.html.erb (2.1ms)
+  Rendered shared/_search_modal.html.erb (0.9ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 220ms (Views: 213.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cog-solid.svg" for ::1 at 2021-09-23 15:18:19 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/cog-solid.svg"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:23:in `_call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:14:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.6ms)
+  Rendered collection of /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.7ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.2ms)
+  Rendering /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.2ms)
+  Rendered /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (680.7ms)
+Started GET "/" for ::1 at 2021-09-23 15:21:46 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (5.1ms)
+  Rendered shared/_masthead.html.erb (1.8ms)
+  Rendered shared/_sections_nav.html.erb (2.6ms)
+  Rendered shared/_search_modal.html.erb (2.2ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (55.3ms)
+Completed 200 OK in 163ms (Views: 151.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632424924472" for ::1 at 2021-09-23 15:22:04 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632424924477" for ::1 at 2021-09-23 15:22:04 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632424937718" for ::1 at 2021-09-23 15:22:17 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632424937721" for ::1 at 2021-09-23 15:22:17 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632424948942" for ::1 at 2021-09-23 15:22:28 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632424948944" for ::1 at 2021-09-23 15:22:28 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632424955210" for ::1 at 2021-09-23 15:22:35 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632424955212" for ::1 at 2021-09-23 15:22:35 -0400
+Started GET "/" for ::1 at 2021-09-23 15:23:36 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (43.1ms)
+Completed 200 OK in 123ms (Views: 118.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dc76e51effb565b356b8d1cb60fd518ac2ce7e2f20361713d17aa2ec10de83ef.css?body=1" for ::1 at 2021-09-23 15:23:37 -0400
+Started GET "/" for ::1 at 2021-09-23 15:24:01 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.7ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (1.8ms)
+  Rendered static_pages/index.html.erb within layouts/application (56.7ms)
+Completed 200 OK in 267ms (Views: 237.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dc76e51effb565b356b8d1cb60fd518ac2ce7e2f20361713d17aa2ec10de83ef.css?body=1&livereload=1632425121591" for ::1 at 2021-09-23 15:25:21 -0400
+Started GET "/assets/application.self-dc76e51effb565b356b8d1cb60fd518ac2ce7e2f20361713d17aa2ec10de83ef.css?body=1&livereload=1632425121594" for ::1 at 2021-09-23 15:25:21 -0400
+Started GET "/assets/cog-solid.svg" for ::1 at 2021-09-23 15:25:21 -0400
+Started GET "/" for ::1 at 2021-09-23 15:25:25 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.6ms)
+  Rendered shared/_masthead.html.erb (17.6ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (1.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (108.5ms)
+Completed 200 OK in 226ms (Views: 221.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-118cfba3b8e757ce8293b5d6380c46590040e9a3a61f414363f5d61439886663.css?body=1" for ::1 at 2021-09-23 15:25:26 -0400
+Started GET "/assets/cog-solid.svg" for ::1 at 2021-09-23 15:25:27 -0400
+Started GET "/assets/application.self-118cfba3b8e757ce8293b5d6380c46590040e9a3a61f414363f5d61439886663.css?body=1&livereload=1632425134477" for ::1 at 2021-09-23 15:25:34 -0400
+Started GET "/assets/application.self-118cfba3b8e757ce8293b5d6380c46590040e9a3a61f414363f5d61439886663.css?body=1&livereload=1632425134482" for ::1 at 2021-09-23 15:25:34 -0400
+Started GET "/assets/application.self-118cfba3b8e757ce8293b5d6380c46590040e9a3a61f414363f5d61439886663.css?body=1&livereload=1632425172270" for ::1 at 2021-09-23 15:26:12 -0400
+Started GET "/assets/application.self-118cfba3b8e757ce8293b5d6380c46590040e9a3a61f414363f5d61439886663.css?body=1&livereload=1632425172273" for ::1 at 2021-09-23 15:26:12 -0400
+Started GET "/assets/application.self-118cfba3b8e757ce8293b5d6380c46590040e9a3a61f414363f5d61439886663.css?body=1&livereload=1632425174512" for ::1 at 2021-09-23 15:26:14 -0400
+Started GET "/assets/application.self-118cfba3b8e757ce8293b5d6380c46590040e9a3a61f414363f5d61439886663.css?body=1&livereload=1632425174516" for ::1 at 2021-09-23 15:26:14 -0400
+Started GET "/" for ::1 at 2021-09-23 15:26:45 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.9ms)
+  Rendered shared/_main_content.html.erb (0.9ms)
+  Rendered static_pages/index.html.erb within layouts/application (46.4ms)
+Completed 200 OK in 172ms (Views: 165.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cde0341731717b33289215522a69d5a671de1f916e399e2dbe5db1ec89366248.css?body=1" for ::1 at 2021-09-23 15:26:46 -0400
+Started GET "/assets/application.self-cde0341731717b33289215522a69d5a671de1f916e399e2dbe5db1ec89366248.css?body=1&livereload=1632425214660" for ::1 at 2021-09-23 15:26:54 -0400
+Started GET "/assets/application.self-cde0341731717b33289215522a69d5a671de1f916e399e2dbe5db1ec89366248.css?body=1&livereload=1632425214665" for ::1 at 2021-09-23 15:26:54 -0400
+Started GET "/assets/cog-solid.svg" for ::1 at 2021-09-23 15:26:56 -0400
+Started GET "/" for ::1 at 2021-09-23 15:26:58 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (1.3ms)
+  Rendered shared/_masthead.html.erb (1.1ms)
+  Rendered shared/_sections_nav.html.erb (3.5ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (123.3ms)
+Completed 200 OK in 194ms (Views: 189.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-60211b10f8295225b6f31b29af69367078ade3562a0af3b2d4f9f8ef1a9f5b92.css?body=1" for ::1 at 2021-09-23 15:26:59 -0400
+Started GET "/assets/cog-solid.svg" for ::1 at 2021-09-23 15:26:59 -0400
+Started GET "/assets/application.self-60211b10f8295225b6f31b29af69367078ade3562a0af3b2d4f9f8ef1a9f5b92.css?body=1&livereload=1632425235134" for ::1 at 2021-09-23 15:27:15 -0400
+Started GET "/assets/application.self-60211b10f8295225b6f31b29af69367078ade3562a0af3b2d4f9f8ef1a9f5b92.css?body=1&livereload=1632425235137" for ::1 at 2021-09-23 15:27:15 -0400
+Started GET "/" for ::1 at 2021-09-23 15:30:26 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (1.1ms)
+  Rendered shared/_masthead.html.erb (2.1ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (1.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (73.6ms)
+Completed 200 OK in 687ms (Views: 677.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cog-solid.svg" for ::1 at 2021-09-23 15:30:28 -0400
+Started GET "/assets/application.self-c9c74290eb05aa9777063c5d879959d98644c9112670562aa1c7ff30abc01221.css?body=1&livereload=1632425430491" for ::1 at 2021-09-23 15:30:30 -0400
+Started GET "/assets/application.self-c9c74290eb05aa9777063c5d879959d98644c9112670562aa1c7ff30abc01221.css?body=1&livereload=1632425430493" for ::1 at 2021-09-23 15:30:30 -0400
+Started GET "/" for ::1 at 2021-09-23 15:34:16 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.7ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 117ms (Views: 110.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425724634" for ::1 at 2021-09-23 15:35:24 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425724630" for ::1 at 2021-09-23 15:35:24 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425731957" for ::1 at 2021-09-23 15:35:32 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425731959" for ::1 at 2021-09-23 15:35:32 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425739655" for ::1 at 2021-09-23 15:35:39 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425739657" for ::1 at 2021-09-23 15:35:39 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425750634" for ::1 at 2021-09-23 15:35:50 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425750629" for ::1 at 2021-09-23 15:35:50 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425804401" for ::1 at 2021-09-23 15:36:44 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425804405" for ::1 at 2021-09-23 15:36:44 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425831817" for ::1 at 2021-09-23 15:37:11 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425831820" for ::1 at 2021-09-23 15:37:11 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425847330" for ::1 at 2021-09-23 15:37:27 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425847332" for ::1 at 2021-09-23 15:37:27 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425860876" for ::1 at 2021-09-23 15:37:40 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425860879" for ::1 at 2021-09-23 15:37:40 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425917609" for ::1 at 2021-09-23 15:38:37 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425917612" for ::1 at 2021-09-23 15:38:37 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425926922" for ::1 at 2021-09-23 15:38:46 -0400
+Started GET "/assets/application.self-f7b93d6bf8e420f4bebca6828dc04a1dcd3991117c3b5ba0178d5cf0f280123a.css?body=1&livereload=1632425926924" for ::1 at 2021-09-23 15:38:46 -0400
+Started GET "/" for ::1 at 2021-09-23 15:42:07 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.7ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 96ms (Views: 90.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8d0896fc304bf24947a64348882e2544e1618ba1c0dc62b4e6999ba3a91d22d8.css?body=1" for ::1 at 2021-09-23 15:42:07 -0400
+Started GET "/" for ::1 at 2021-09-23 15:42:36 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (1.0ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 120ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8d0896fc304bf24947a64348882e2544e1618ba1c0dc62b4e6999ba3a91d22d8.css?body=1&livereload=1632426197350" for ::1 at 2021-09-23 15:43:17 -0400
+Started GET "/assets/application.self-8d0896fc304bf24947a64348882e2544e1618ba1c0dc62b4e6999ba3a91d22d8.css?body=1&livereload=1632426197353" for ::1 at 2021-09-23 15:43:17 -0400
+Started GET "/" for ::1 at 2021-09-23 15:43:35 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.6ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (1.0ms)
+  Rendered shared/_main_content.html.erb (1.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (35.8ms)
+Completed 200 OK in 120ms (Views: 115.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8f0b82a27609103f1797a00257a7c5d5b531972cd7b720a9e3355a3d2cbe1d66.css?body=1" for ::1 at 2021-09-23 15:43:36 -0400
+Started GET "/" for ::1 at 2021-09-23 15:44:52 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.7ms)
+  Rendered shared/_masthead.html.erb (32.1ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.8ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (107.8ms)
+Completed 200 OK in 184ms (Views: 178.8ms | ActiveRecord: 0.0ms)
+
+

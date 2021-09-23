@@ -13,8 +13,8 @@ body {
 }
 
 button {
-	background-color: #6288a5;
-	border-color: #4d7b9f;
+	background-color: $light-blue;
+	border-color: $dark-blue;
 	color: white;
 	font-weight: 700;
 	padding: 7px 9px; 
@@ -27,8 +27,8 @@ button {
 }
 
 button:hover {
-	background-color: #315e7e;
-	border-color: #2b455a;
+	background-color: $blue;
+	border-color: $darkest-blue;
 }
 
 /*
